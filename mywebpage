@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="bjqs.css">
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="js/bjqs-1.3.min.js"></script>
+
+<title>miksarad</title>
+
+<style>
+body {
+	background: url("http://4.bp.blogspot.com/-fKvaPFYK7X8/TYzggI-lVPI/AAAAAAAAAfQ/j1EF-SJoNPs/s1600/Paris%2Bat%2Bnight%2B%25233.jpg");
+	font-family: helvetica;
+	color: white;
+}
+
+header {
+	background-color: rgba(0, 0, 255, 0.8);
+	border-radius: 20px;
+	height: 200px;
+}
+
+h1 {
+	font-family: 'great vibes';
+	font-size: 100px;
+	margin: 0;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+ul {
+	font-family: helvetica;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+
+li {
+	display: inline;
+	font-family: helvetica;
+	color: white;
+	text-align: center;
+	padding: 0 20px 0 20px;
+}
+
+a {
+	color: white;
+}
+
+#link1 {
+	color: white;
+}
+
+#link2 {
+	color: white;
+}
+
+.about {
+	max-width: 500px;
+	text-align: justify;
+	padding: 40px 0 0 40px;
+}
+
+.aboutdesc {
+	background-color: rgba(0,0,255,0.5);
+	padding: 10px;
+	margin: 10px 0 0 0;
+	color: white;
+}
+
+.exp {
+	max-width: 500px;
+	text-align: justify;
+	padding: 40px 0 0 40px;
+}
+
+.expdesc {
+	background-color: rgba(0,0,255,0.5);
+	padding: 10px;
+	margin: 10px 0 0 0;
+	color: white;
+
+}
+.glasses {
+	float: right;
+	border-radius: 0 20px 20px 0;
+}
+
+.trevi {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -375px;
+	margin-top: -240px;
+	border-radius: 20px;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.beachpic {
+	margin: 100px 0 0 40px;
+	float: left;
+}
+
+.beach {
+	border-radius: 20px;
+}
+
+#carousel {
+	width: 480px;
+	overflow: hidden;
+}
+
+#carousel ul {
+	width: 1920px;
+	padding: 0;
+	margin: 40px 0 0 40px;
+}
+
+#carousel ul li {
+	width: 480px;
+	text-align: center;
+	height: 280px;
+	list-style: none;
+	float: left;
+}
+
+</style>
+
+
+
+</head>
+
+
+
+<body>
+<img class="glasses" src="http://i.imgur.com/5YKp0KK.jpg" height="200px">
+<img class="trevi" src="http://i.imgur.com/S8cl4Rf.jpg" width= "750px" height= "480px">
+
+<header>
+<h1>Dara Kim</h1>
+
+<ul>
+	<li>Los Angeles, CA</li>
+	<li><a href="mail to: darakim8@gmail.com">darakim8@gmail.com</a></li>
+	<li>(310) 347-5402</li>
+</ul>
+</header>
+
+<p " style="float: right">My eyes are pretty bad.</p>
+
+
+
+
+
+<div class="about"><a href="#" id="link1">About Me</a>
+	<div class="aboutdesc" style="display:none">
+	<p><small>I graduated from UCLA in 2011 and since then have been working and traveling..traveling a LOT. Yes, it would have been nice of me to jump into a corporate job in town like most of my friends and give my parents a solid answer to say when their friends ask them what I'm up to. But-all those things aside-I believed that it was imperative of me to soak up a world that was outside of the LA bubble I grew up in. So, off I went to work in South Korea for one year. When I came back, I worked jobs in everything from teaching English to programming a film festival to script supervising film productions. In between, I backpacked for two months in Europe solo, met all kinds of random people-travelers and locals alike-and ultimately came to the conclusion that all of us were the same: everyone just wants to be seen. I came back and meandered in the same job for awhile before I reminded myself of the energy I garnered from my trip-ultimately motivating me to take a real plunge in my entrepreneurial spirit and take General Assembly's WDI course to push myself forward. I'm beyond excited for what these next several months may bring.</small></p>
+	</div>
+</div>
+
+
+
+<div class="exp"><a href="#" id="link2">Experience</a>
+	<div class="expdesc" style="display:none">
+	<p><small>Although my work in programming started with the Dash tutorials, my work in web designing started in 2012, when a business partner and I launched a blog website. The website was designed using the templates provided on Squarespace, but-with limited money and knowledge in the technical details of running the page-the website eventually folded. Nonetheless, it was a great experience and I'm looking forward to furthering my knowledge in web development to arm me with the knowledge this time to execute my ideas.</small></p>
+	</div>
+</div>
+
+<!--<div class="beachpic">
+	<img class="beach" src="http://i.imgur.com/pGDPOQF.jpg" width="300px">
+	<p class="beachdesc" width="300px"><small>At a lava rock beach in Santorini, Greece.</small></p>
+</div>-->
+
+
+<div id="carousel">
+	<ul>
+		<li><img src="http://i.imgur.com/R3DAm63.jpg" width="480px" height="280px"></li>
+		<li><img src="http://i.imgur.com/Btz0orzl.jpg" width="480px" height="280px"></li>
+		<li><img src="http://i.imgur.com/7CQCGM6l.jpg" width="480px" height="280px"></li>
+	</ul>
+</div>
+
+
+
+<figure class="beachpic">
+<img class="beach" src="http://i.imgur.com/pGDPOQF.jpg" width="300px">
+<figcaption class="beachdesc">At a lava rock beach in Santorini, Greece.</figcaption>
+</figure>
+
+
+<script>
+
+	$('#link1').on('click', function(){
+		$('.aboutdesc').toggle();
+	}); 
+
+	$('#link2').on('click', function(){
+		$('.expdesc').toggle();
+	});
+
+</script>
+
+<script>
+$(document).ready(function(){
+	var t = setInterval(function(){
+		$("#carousel ul").animate({marginLeft:-480},1000,function(){
+			$(this).find("li:last").after($(this).find("li:first"));
+			$(this).css({marginLeft:0});
+		})
+	},5000);
+});
+</script>
+
+
+
+
+</body>
+
+</html>
